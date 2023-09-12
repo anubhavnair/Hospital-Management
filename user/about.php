@@ -1,7 +1,3 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
--->
 <!doctype html>
 <html lang="en">
 
@@ -9,7 +5,7 @@ Author URL: http://w3layouts.com
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Kovid - Medical Category Bootstrap Responsive Template | About : W3layouts</title>
+  <title>COVID-19 - Medical Team</title>
   <!-- google fonts -->
   <link href="//fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
   <!-- Template CSS -->
@@ -21,40 +17,39 @@ Author URL: http://w3layouts.com
   <?php include 'common/header.php'; ?>
   <!--/header-->
   <!-- breadcrumb -->
-<section class="w3l-about-breadcrumb text-center">
-  <div class="breadcrumb-bg breadcrumb-bg-about py-5">
+  <section class="w3l-about-breadcrumb text-center">
+    <div class="breadcrumb-bg breadcrumb-bg-about py-5">
       <div class="container py-lg-5 py-md-4">
         <div class="w3breadcrumb-gids">
           <div class="w3breadcrumb-left text-left">
-                    <h2 class="title AboutPageBanner">
-                  About Us   </h2>
-                              <p class="inner-page-para mt-2">
-                                Prevent the Spread
-                                Stay at Home, Stay Safe             </p>
+            <h2 class="title AboutPageBanner">
+              About Us </h2>
+            <p class="inner-page-para mt-2">
+              Prevent the Spread
+              Stay at Home, Stay Safe </p>
           </div>
           <div class="w3breadcrumb-right">
-                <ul class="breadcrumbs-custom-path">
-                  <li><a href="index.html">Home</a></li>
-                  <li class="active"><span class="fas fa-angle-double-right mx-2"></span> About Us</li>
-                </ul>
+            <ul class="breadcrumbs-custom-path">
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><span class="fas fa-angle-double-right mx-2"></span> About Us</li>
+            </ul>
           </div>
-    </div>
+        </div>
       </div>
       <div class="hero-overlay"></div>
-  </div>
-</section>
-<!--//breadcrumb-->
-<!--/w3l-aboutblock1-->
+    </div>
+  </section>
+  <!--//breadcrumb-->
+  <!--/w3l-aboutblock1-->
   <section class="w3l-aboutblock1" id="about">
     <div class="midd-w3 py-5">
       <div class="container py-lg-5 py-md-4 py-2">
         <div class="row">
           <div class="col-lg-6 left-wthree-img pr-lg-5">
             <div class="position-relative">
-              <img src="assets/images/banner5.jpg"
-                alt="" class="img-fluid radius-image">
-              </div>
+              <img src="assets/images/banner5.jpg" alt="" class="img-fluid radius-image">
             </div>
+          </div>
           <div class="col-lg-6 mt-lg-0 mt-5 about-right-faq align-self">
             <h5 class="title-subw3hny mb-1">About Us</h5>
             <h3 class="title-w3l">Life doesn’t get easier or more forgiving, we get stronger and more resilient.</h3>
@@ -72,9 +67,9 @@ Author URL: http://w3layouts.com
               <i class="fas fa-theater-masks" aria-hidden="true"></i>
               <div class="area-box-info">
                 <h4><a href="#url" class="title-head">
-                  Wear A Face Mask</a></h4>
-                    <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,adipisicing
-                      elit.</p>
+                    Wear A Face Mask</a></h4>
+                <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,adipisicing
+                  elit.</p>
               </div>
             </div>
           </div>
@@ -83,9 +78,9 @@ Author URL: http://w3layouts.com
               <i class="fas fa-hands-wash" aria-hidden="true"></i>
               <div class="area-box-info">
                 <h4><a href="#url" class="title-head">
-                  Wash Your Hands</a></h4>
-                    <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,adipisicing
-                      elit.</p>
+                    Wash Your Hands</a></h4>
+                <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,adipisicing
+                  elit.</p>
               </div>
             </div>
           </div>
@@ -94,20 +89,20 @@ Author URL: http://w3layouts.com
               <i class="fas fa-people-arrows" aria-hidden="true"></i>
               <div class="area-box-info">
                 <h4><a href="#url" class="title-head">
-                  Avoid Close Contact</a></h4>
-                    <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,adipisicing
-                      elit.</p>
+                    Avoid Close Contact</a></h4>
+                <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,adipisicing
+                  elit.</p>
               </div>
             </div>
           </div>
         </div>
-         <!--//Features-->
+        <!--//Features-->
       </div>
     </div>
   </section>
   <!--//w3l-aboutblock1-->
-   <!--/team-sec-->
-   <section class="w3l-team-main team py-5" id="team">
+  <!--/team-sec-->
+  <section class="w3l-team-main team py-5" id="team">
     <div class="container py-lg-5">
       <h5 class="title-subw3hny mb-1 text-center">Our Team</h5>
       <h3 class="title-w3l text-center">Amazing Team</h3>
@@ -199,8 +194,8 @@ Author URL: http://w3layouts.com
           <div class="cwp23-text-cols mt-lg-5 mt-4">
             <div class="column">
               <div class="icon mb-4">
-                  <span class="fas fa-crutch"></span>
-               </div>
+                <span class="fas fa-crutch"></span>
+              </div>
               <h4>Vaccination</h4>
               <p>Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p>
             </div>
@@ -214,17 +209,15 @@ Author URL: http://w3layouts.com
           </div>
         </div>
         <div class="col-lg-3 col-6 cwp23-text align-self mt-lg-0 mt-5 pr-md-3 pr-2">
-          <img src="assets/images/1.jpg" alt=""
-            class="radius-image img-fluid">
+          <img src="assets/images/1.jpg" alt="" class="radius-image img-fluid">
         </div>
         <div class="col-lg-3 col-6  cwp23-text align-self mt-lg-0 mt-5 pl-md-3 pl-2">
-          <img src="assets/images/2.jpg" alt=""
-            class="radius-image img-fluid">
+          <img src="assets/images/2.jpg" alt="" class="radius-image img-fluid">
         </div>
       </div>
     </div>
   </section>
- <!--//w3l-about2-->
+  <!--//w3l-about2-->
   <!--/w3l-project-->
   <section class="w3l-project-main py-5">
     <div class="container py-md-5 py-2">
@@ -236,12 +229,13 @@ Author URL: http://w3layouts.com
                 <h5 class="title-subw3hny mb-3">Free Consultation</h5>
                 <h3 class="title-w3l mb-3">Request Free Consultation <br>and <span class="span-bold">Lets Do It!</span>
                 </h3>
-                <p>Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi esse quasi, sit amet. Lorem ipsum dolor sit amet elit.</p>
+                <p>Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi esse quasi, sit amet. Lorem ipsum
+                  dolor sit amet elit.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 align-self text-lg-right mt-lg-0 mt-sm-5 mt-4">
-            <a href="#" class="btn btn-primary btn-white  btn-style mr-2"> Contact Now </a>
+            <a href="contact.php" class="btn btn-primary btn-white  btn-style mr-2"> Contact Now </a>
           </div>
         </div>
       </div>
@@ -249,10 +243,10 @@ Author URL: http://w3layouts.com
   </section>
   <!--//w3l-project-->
   <!--/footer-->
- <?php include 'common/footer.php'; ?>
+  <?php include 'common/footer.php'; ?>
   <!-- //footer -->
   <!-- copyright -->
-  
+
   <!-- //copyright -->
   <!--//footer-->
   <!-- Template JavaScript -->

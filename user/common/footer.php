@@ -51,8 +51,7 @@
                 <span class="fas fa-blender-phone"></span>
               </div>
               <div class="cont-right">
-                <p><a href="tel:+(21) 255 999 8888"> +(21) 255 999
-                    8888</a></p>
+                <p><a href="tel:+(91) 7024022707 ">+(91) 70XXXXXX07</a></p>
               </div>
             </div>
             <div class="cont-top margin-up">

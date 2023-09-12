@@ -1,14 +1,9 @@
 <?php
 
-include 'common/connect.php';
-
-$city = $obj->query("select * from city");
-
-
-$area = $obj->query("select * from area");
-
-
 if (isset($_POST['submit'])) {
+
+  $con = mysqli_connect("127.0.0.1", "root", "") or die("Data Base connection error");
+  mysqli_select_db($con, 'hospital') or die('Database not found');
   # code...
   $name = $_POST['name'];
   $email = $_POST['email'];
@@ -32,15 +27,17 @@ if (isset($_POST['submit'])) {
   $tmp = $_FILES['f']['tmp_name'];
   $path = "../admin/pat_upload/$filename";
 
-  $exe = $obj->query("insert into user(name,email,contact,address,image,city_id,area_id,r_date,is_delete,is_update,is_delete_time,is_update_time,gender,password)values(
-          '$name','$email','$contact','$address','$filename','$city','$area','$r_date','$is_delete','$is_update','','',$gender','$pass')");
+
+
+  $query = "INSERT INTO `user`(`name`, `email`, `contact`, `address`, `image`,`r_date`, `is_delete`, `is_update`, `gender`, `password`) VALUES ('$name','$email','$contact','$address','$path','$r_date','$is_delete','$is_update','$gender','$pass')";
+  $exe = mysqli_query($con, $query) or die("Query Error");
 
   if ($exe) {
     # code...
     move_uploaded_file($tmp, $path);
     echo "<script>alert('Registration successfully');window.location='index.php';</script>";
   } else {
-    echo "<script>alert('error');</script>";
+    echo "<script>alert('error');window.location='register.php'</script>";
   }
 
 }
@@ -128,27 +125,6 @@ Author URL: http://w3layouts.com
                   <label class="custom-control-label" for="defaultGroupExample3">Female </label>
                 </div>
               </div>
-              <br>
-              <!-- dropdown-->
-              <label for="d_type">Choose your city</label>
-              <select class="form-control" name="city" id="city">
-                <option value="select">---select---</option>
-                <?php
-                while ($c = $city->fetch_object()) {
-                  ?>
-                      <option value="<?php echo $c->city_id ?>"><?php echo $c->name; ?></option>
-                <?php } ?>
-              </select>
-              <br>
-              <label for="d_type">Choose your area</label>
-              <select class="form-control" name="area" id="area">
-                <option value="select">---select---</option>
-                <?php
-                while ($a = $area->fetch_object()) {
-                  ?>
-                      <option value="<?php echo $a->area_id ?>"><?php echo $a->name; ?></option>
-                <?php } ?>
-              </select>
               <br>
               <label for="f">Upload your image</label>
               <input type="file" name="f" id="f" class="contact-input" required="" />

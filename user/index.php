@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 
 
@@ -23,7 +23,7 @@ Author URL: http://w3layouts.com
 
 <body>
     <!--header-->
-   <?php include 'common/header.php'; ?>
+    <?php include 'common/header.php'; ?>
     <!--/header-->
 
     <!-- hero slider Start -->
@@ -38,16 +38,17 @@ Author URL: http://w3layouts.com
                             Stay at Home, Stay Safe</h1>
                         <p data-animation="fadeInDown" class="mt-4">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut
                             labore et dolore magna aliqua.
-                            <span class="dis-none">Ut enim ad minim veniam, quis nisi ut ea.</span> </p>
+                            <span class="dis-none">Ut enim ad minim veniam, quis nisi ut ea.</span>
+                        </p>
                         <div class="cta-btn" data-animation="fadeInUp" data-delay="1s">
-                            <a href="#url" class="btn btn-style btn-primary">Read More</a>
+                            <a href="about.php" class="btn btn-style btn-primary">Read More</a>
                         </div>
                     </div>
                 </div>
                 <div class="hero-overlay"></div>
             </div>
             <!-- hero slide end -->
-           
+
         </div>
     </div>
     <!-- hero slider end -->
@@ -94,15 +95,18 @@ Author URL: http://w3layouts.com
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <span class="title-subw3hny">About the disease</span>
-                        <h3 class="title-w3l">Coronavirus Disease 
+                        <h3 class="title-w3l">Coronavirus Disease
                             Outbreak Situation</h3>
                         <p class="mt-md-4 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             ullamco laboris nisi ut ex ea. </p>
                         <ul class="service-list pt-lg-2 mt-4">
-                            <li class="service-link"><a href="#url"><span class="fas fa-check"></span> Avoid touching your face.</a></li>
-                            <li class="service-link"><a href="#url"><span class="fas fa-check"></span> Cover your mouth and nose when coughing.</a></li>
-                            <li class="service-link"><a href="#url"><span class="fas fa-check"></span> Stay home if you feel unwell.</a></li>
+                            <li class="service-link"><a href="#url"><span class="fas fa-check"></span> Avoid touching
+                                    your face.</a></li>
+                            <li class="service-link"><a href="#url"><span class="fas fa-check"></span> Cover your mouth
+                                    and nose when coughing.</a></li>
+                            <li class="service-link"><a href="#url"><span class="fas fa-check"></span> Stay home if you
+                                    feel unwell.</a></li>
                         </ul>
                     </div>
                     <div class="HomeAboutImages col-lg-6 mt-lg-0 mt-5 pl-lg-5">
@@ -127,11 +131,12 @@ Author URL: http://w3layouts.com
                 <div class="col-lg-6 feature-grid-left pr-lg-5">
                     <h5 class="title-subw3hny">How to Protect Yourself?</h5>
                     <h3 class="title-w3l mb-4">Prevention & advice</h3>
-                    <p class="text-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Fusce eget ex fermentum, ultricies nisi ac sed,
+                    <p class="text-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Fusce eget ex fermentum, ultricies nisi ac sed,
                         lacinia est. Quisque ut lectus consequat, venenatis eros et, sed commodo risus. Nullam sit
                         amet laoreet elit. Suspendisse non init magnaa velit efficitur.
                     </p>
-                    <a href="about.html" class="btn btn-style btn-primary mt-lg-5 mt-4">Read More</a>
+                    <a href="about.php" class="btn btn-style btn-primary mt-lg-5 mt-4">Read More</a>
                 </div>
                 <div class="col-lg-6 feature-grid-right mt-lg-0 mt-5 pl-lg-5">
                     <div class="call-grids-w3 d-grid">
@@ -179,9 +184,10 @@ Author URL: http://w3layouts.com
                                     class="img-fluid" /></a>
                             <div class="blog-info">
                                 <a href="#service" class="title">Wear A Face Mask</a>
-                                <p class="text-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. </p>
+                                <p class="text-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore. </p>
                             </div>
-                           
+
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-md-0 mt-5">
@@ -190,9 +196,10 @@ Author URL: http://w3layouts.com
                                     class="img-fluid" /></a>
                             <div class="blog-info">
                                 <a href="#service" class="title">Wash Your Hands</a>
-                                <p class="text-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. </p>
+                                <p class="text-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore. </p>
                             </div>
-                            
+
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-lg-0 mt-5">
@@ -201,9 +208,10 @@ Author URL: http://w3layouts.com
                                     class="img-fluid" /></a>
                             <div class="blog-info">
                                 <a href="#service" class="title">Avoid Close Contact</a>
-                                <p class="text-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. </p>
+                                <p class="text-para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore. </p>
                             </div>
-                           
+
                         </div>
                     </div>
                 </div>
@@ -254,37 +262,37 @@ Author URL: http://w3layouts.com
         <!-- //grids -->
     </section>
     <!-- //testimonials -->
-   
-     <!--/subscribe-->
-            <section class="w3l-project py-5" id="subscribe">
-                <div class="container py-md-5 py-sm-4 py-2">
-                    <div class="bottom-info">
-                        <div class="header-section text-center">
-                            <h5 class="title-subw3hny text-center mb-1">Join With Us</h5>
-                            <h3 class="title-w3l">Subscribe to our Newsletter</h3>
-                            <p class="mt-3 pr-lg-5">Lorem ipsum dolor sit amet elit. Velit beatae
-                                rem ullam dolore nisi esse quasi, sit amet. Lorem ipsum dolor sit
-                                amet elit.</p>
-                        </div>
-                        <form action="#" class="subscribe mt-5" method="post">
-                            <input type="email" name="email" placeholder="Your Email Address" required="">
-                            <button class="btn btn-style btn-primary"><i class="fas fa-paper-plane"></i></button>
-                        </form>
-                    </div>
+
+    <!--/subscribe-->
+    <section class="w3l-project py-5" id="subscribe">
+        <div class="container py-md-5 py-sm-4 py-2">
+            <div class="bottom-info">
+                <div class="header-section text-center">
+                    <h5 class="title-subw3hny text-center mb-1">Join With Us</h5>
+                    <h3 class="title-w3l">Subscribe to our Newsletter</h3>
+                    <p class="mt-3 pr-lg-5">Lorem ipsum dolor sit amet elit. Velit beatae
+                        rem ullam dolore nisi esse quasi, sit amet. Lorem ipsum dolor sit
+                        amet elit.</p>
                 </div>
-            </section>
-     <!--//subscribe-->
+                <form action="#" class="subscribe mt-5" method="post">
+                    <input type="email" name="email" placeholder="Your Email Address" required="">
+                    <button class="btn btn-style btn-primary"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--//subscribe-->
     <!--/footer-->
-   <?php include 'common/footer.php'; ?>
+    <?php include 'common/footer.php'; ?>
     <!-- //footer -->
     <!-- copyright -->
-    
+
     <!-- //copyright -->
     <!--//footer-->
     <!-- Template JavaScript -->
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/theme-change.js"></script>
-    
+
     <!-- disable body scroll which navbar is in active -->
     <script>
         $(function () {
